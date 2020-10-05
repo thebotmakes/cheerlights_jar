@@ -51,7 +51,7 @@ void setup() {
   ThingSpeak.begin(client);
 }
 
-String colorName[] = {"none", "red", "pink", "green", "blue", "cyan", "white", "warmwhite", "oldlace", "purple", "magenta", "yellow", "orange", "1999"}; // List of CheerLights color names
+String colorName[] = {"none", "red", "pink", "green", "blue", "cyan", "white", "warmwhite", "oldlace", "purple", "magenta", "yellow", "orange"}; // List of CheerLights color names
 
 int colorRGB[][3] = {     0,  0,  0,  // "none"  // Map of RGB values for each of the Cheerlight color names
                           255,  0,  0,  // "red"
